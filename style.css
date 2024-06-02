@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+body{
+    background-image: url('https://images.pexels.com/photos/1183099/pexels-photo-1183099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  .centered-content {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 350px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+  }
+p{
+    margin:50px ;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-weight: 200;
+}
+.desc-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.temp{
+    font-family: 'Fira Code', monospace;
+    font-size: 60px;
+    color: aliceblue;
+    font-weight: 200;
+}
+.degree{
+    font-family: 'Monda', sans-serif;
+    font-size: 30px;
+    color: #827A7A;
+    font-weight: 200;
+    margin-bottom: 30px;
+    float: right;
+
+}
+
+.vr{
+    border: 2px solid aliceblue;
+    display: inline-block;
+    width: 0;
+    height: 130px;
+    border-radius: 50px;
+}
+.location{
+    font-family: 'Montserrat', sans-serif;
+    /* font-style: italic; */
+    font-size: 30px;
+    color: #827A7A;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+img{
+    display: inline-block;
+}
+.img-text
+{
+    /* text-align: center; */
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-weight: 200;
+    margin: 0;
+    /* float: right; */
+}
